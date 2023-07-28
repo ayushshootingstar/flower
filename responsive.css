@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+
+
+    .s1{
+        display:flex ;
+        width: 993px;
+        flex-basis: 100%;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+
+
+    .flowerR{
+        display: none;
+    }
+
+    .container{
+        /* width: 100%; */
+        margin: 30px 0px;
+        padding: 0px 265px;
+        height: fit-content;
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: row;
+        gap: 4px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img{
+        width: 140px;
+        border-radius: 38%;
+        border-color: #00bf72;
+        border-image-slice: 30px;}
+    
+        .img1{ 
+            width: 120px;
+        }
+
+        .img3{
+            background-size: center center cover;
+            height: 210px;
+            width: 140px;
+            border-radius: 38%;
+            border-color: #00bf72;
+        }
+    
+
+
+
+    .s2{
+        width: fit-content;
+        max-height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to right top, #6bd1a8, #44cebf, #23c8d4, #2dc1e4, #54b7eb, #5bbaef, #62bcf4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+        padding-right: 0px;
+        /* height: 250px; */
+    }
+
+
+    .contents2{
+        display:flex;
+        width: 100%;
+        padding-left: 5px;
+    
+    }
+
+
+
+    .w{
+        padding-left: 28px;
+        padding-bottom: 560px;
+        padding-right: 5px;
+    }
+
+    .w h1{
+        text-align: center;
+        font-size: 50px;
+        justify-content: center;
+    }
+
+
+    .hjl{
+        /* height: 210px; */
+        width: 250px;
+        border-radius: 38%;
+        border-color: #00bf72;
+        border-image-slice: 30px;
+    }
+
+    .newimage{
+        padding-left: 100px;
+    }
+
+
+
+    .audio{
+        display: none;
+    }
+
+
+    
+
+    /* .content{
+        display:flex;
+        flex-direction:column;
+        flex-flow: row;
+        width: 100%;
+    
+    } */
+
+    
+
+}
