@@ -20,30 +20,30 @@
     .container{
         /* width: 100%; */
         margin: 30px 0px;
-        padding: 0px 265px;
+        padding: 0px 230px;
         height: fit-content;
         display: flex;
         flex-basis: 100%;
         flex-direction: row;
-        gap: 4px;
+        gap: 15px;
         justify-content: space-around;
         align-items: center;
     }
 
     .img{
-        width: 140px;
+        width: 250px;
         border-radius: 38%;
         border-color: #00bf72;
         border-image-slice: 30px;}
     
         .img1{ 
-            width: 120px;
+            width: 200px;
         }
 
         .img3{
             background-size: center center cover;
-            height: 210px;
-            width: 140px;
+            height: 320px;
+            width: 250px;
             border-radius: 38%;
             border-color: #00bf72;
         }
