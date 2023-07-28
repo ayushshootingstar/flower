@@ -81,7 +81,13 @@
 
     .w h1{
         text-align: center;
-        font-size: 50px;
+        font-size: 70px;
+        justify-content: center;
+    }
+
+    .w h2{
+        text-align: center;
+        font-size: 40px;
         justify-content: center;
     }
 
@@ -93,6 +99,8 @@
         border-color: #00bf72;
         border-image-slice: 30px;
     }
+
+    
 
     .newimage{
         padding-left: 80px;
