@@ -3,7 +3,7 @@
 
     .s1{
         display:flex ;
-        width: 993px;
+        width: 1500px;
         flex-basis: 100%;
         /* flex-wrap: wrap; */
         justify-content: center;
