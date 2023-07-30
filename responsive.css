@@ -1,9 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
 
     .s1{
         display:flex ;
-        width: 1500px;
+        width: 1700px;
         flex-basis: 100%;
         /* flex-wrap: wrap; */
         justify-content: center;
@@ -52,7 +52,7 @@
 
 
     .s2{
-        width: 1500px;
+        width: 1700px;
         max-height: 100%;
         display:flex;
         justify-content: center;
