@@ -19,7 +19,7 @@
 
     .container{
         /* width: 100%; */
-        margin: 100px 0px;
+        margin: 270px 0px;
         padding: 0px 365px;
         height: fit-content;
         display: flex;
@@ -67,6 +67,7 @@
     .contents2{
         display:flex;
         width: 100%;
+        margin-top: 350px;
         padding-left: 5px;
     
     }
