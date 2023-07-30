@@ -1,6 +1,9 @@
 @media screen and (max-width: 800px) {
 
-
+    body{
+         background-image: linear-gradient(to right top, #6bd1a8, #44cebf, #23c8d4, #2dc1e4, #54b7eb, #5bbaef, #62bcf4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);        
+    }
+    
     .s1{
         display:flex ;
         width: 1700px;
