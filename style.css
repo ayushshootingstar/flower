@@ -1,0 +1,59 @@
+.d1{
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.r{
+    animation: rotateImg 6s linear infinite;
+}
+
+@keyframes rotateImg {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(1080deg);
+    }
+    
+}
+
+.shake:hover{
+    animation: Shake 1.3s linear infinite;
+}
+
+@keyframes Shake {
+    0% {
+        transform: rotate(5deg);
+    }
+  
+    25% {
+        transform: rotate(-6deg);
+    }
+  
+    50% {
+        transform: rotate(5deg);
+    }
+  
+    75% {
+        transform: rotate(-6deg);
+    }
+  
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.bounce{
+    animation: bounce1 0.6s cubic-bezier(0.5, 0.5, 1, 0.5);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce1 {
+    from {transform: translate3d(0,0,0);}
+        to{
+            transform: translate3d(0,7px, 0);
+        }
+}
+*{
+    font-family: cursive;
+}
